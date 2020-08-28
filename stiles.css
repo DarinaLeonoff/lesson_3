@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+header{
+    width: 60%;
+    margin: 0 auto;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.heading{
+    flex-basis: 100%;
+    text-align: center;
+}
+.error{
+    text-transform: uppercase;
+    color: red;
+    font-size: 60px;
+}
+
+.text{
+    width: 40%;
+    flex-basis: fill;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    color: black;
+    height: 100px;
+}
