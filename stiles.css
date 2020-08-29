@@ -33,6 +33,10 @@ main{
     flex-basis: fill;
 }
 
+.youtube{
+    margin-bottom: 20px;
+}
+
 footer{
     text-align: center;
     background-color: gray;
